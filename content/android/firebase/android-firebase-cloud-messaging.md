@@ -60,5 +60,5 @@ Authorization:key=KEY
 ```
 
 # Código
-*  [Repositorio en GitHub](https://github.com/adanieldev/EjemploFCM) 
-*  [Descargar en ZIP](https://github.com/adanieldev/EjemploFCM/archive/master.zip) 
+*  [Repositorio en GitHub](https://github.com/alvareztech/EjemploFCM) 
+*  [Descargar en ZIP](https://github.com/alvareztech/EjemploFCM/archive/master.zip) 

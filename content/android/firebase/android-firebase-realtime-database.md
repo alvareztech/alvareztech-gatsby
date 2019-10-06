@@ -58,10 +58,10 @@ mensajeRef.addValueEventListener(new ValueEventListener() {
 
 > Código actualizado Nov 30, 2018
 
-* [Repositorio GitHub](https://github.com/adanieldev/AndroidFirebaseRealtimeDatabaseSample)
-* [Descargar ZIP](https://github.com/adanieldev/AndroidFirebaseRealtimeDatabaseSample/archive/master.zip)
-* [Repositorio GitHub](https://github.com/adanieldev/AndroidFirebaseRealtimeDatabaseSample/tree/youtube) (versión anterior/video)
-* [Descargar ZIP](https://github.com/adanieldev/AndroidFirebaseRealtimeDatabaseSample/archive/youtube.zip) (versión anterior/video)
+* [Repositorio GitHub](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample)
+* [Descargar ZIP](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/archive/master.zip)
+* [Repositorio GitHub](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/tree/youtube) (versión anterior/video)
+* [Descargar ZIP](https://github.com/alvareztech/AndroidFirebaseRealtimeDatabaseSample/archive/youtube.zip) (versión anterior/video)
 
 ## Recursos
 

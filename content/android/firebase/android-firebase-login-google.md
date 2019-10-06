@@ -143,5 +143,5 @@ public void revoke(View view) {
 
 Código completo en:
 
-*  [Repositorio en GitHub](https://github.com/adanieldev/FirebaseGoogleSignInAndroid) 
-*  [Descargar código](https://github.com/adanieldev/FirebaseGoogleSignInAndroid/archive/master.zip) 
+*  [Repositorio en GitHub](https://github.com/alvareztech/FirebaseGoogleSignInAndroid) 
+*  [Descargar código](https://github.com/alvareztech/FirebaseGoogleSignInAndroid/archive/master.zip) 

@@ -93,5 +93,5 @@ signInButton.setColorScheme(SignInButton.COLOR_DARK);
 ```
 
 ## Código
-* [Repositorio en GitHub](https://github.com/adanieldev/GoogleSignInAndroid)
-* [Descargar Código en ZIP](https://github.com/adanieldev/GoogleSignInAndroid/archive/master.zip)
+* [Repositorio en GitHub](https://github.com/alvareztech/GoogleSignInAndroid)
+* [Descargar Código en ZIP](https://github.com/alvareztech/GoogleSignInAndroid/archive/master.zip)

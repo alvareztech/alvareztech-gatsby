@@ -233,13 +233,13 @@ Código completo del proyecto en:
 ### Versión simple
 Mostrada y explicada en el video.
 
-* [Repositorio en GitHub](https://github.com/adanieldev/android-facebook-login)
-* [Descargar en ZIP](https://github.com/adanieldev/android-facebook-login/archive/master.zip)
+* [Repositorio en GitHub](https://github.com/alvareztech/android-facebook-login)
+* [Descargar en ZIP](https://github.com/alvareztech/android-facebook-login/archive/master.zip)
 
 ### Versión con obtención de información del perfil
-* [Repositorio en GitHub](https://github.com/adanieldev/android-facebook-login/tree/profile)
-* [Descargar en ZIP](https://github.com/adanieldev/android-facebook-login/archive/profile.zip)
+* [Repositorio en GitHub](https://github.com/alvareztech/android-facebook-login/tree/profile)
+* [Descargar en ZIP](https://github.com/alvareztech/android-facebook-login/archive/profile.zip)
 
 ### Versión con obtención de información del perfil y correo
-* [Repositorio en GitHub](https://github.com/adanieldev/android-facebook-login/tree/profile-email)
-* [Descargar en ZIP](https://github.com/adanieldev/android-facebook-login/archive/profile-email.zip)
+* [Repositorio en GitHub](https://github.com/alvareztech/android-facebook-login/tree/profile-email)
+* [Descargar en ZIP](https://github.com/alvareztech/android-facebook-login/archive/profile-email.zip)

@@ -51,4 +51,4 @@ keytool -exportcert -list -v -alias androiddebugkey -keystore ~/.android/debug.k
 
 Código completo de la aplicación:
 
-* [GitHub Gist](https://gist.github.com/adanieldev/8c38122832535b20f4afc42c5b0b9366)
+* [GitHub Gist](https://gist.github.com/alvareztech/8c38122832535b20f4afc42c5b0b9366)

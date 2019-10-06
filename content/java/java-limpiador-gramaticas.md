@@ -13,5 +13,5 @@ Limpiador de Gramáticas es aplicación sencilla con interfaz gráfica elaborado
 
 El proyecto fue realizado con Java utilizando las librerías Swing y AWT, contiene clases para el tratamiento de gramáticas.
 
-* [Repositorio](https://github.com/adanieldev/LimpiadorDeGramaticas)
-* [Descargar ZIP](https://github.com/adanieldev/LimpiadorDeGramaticas/archive/master.zip)
+* [Repositorio](https://github.com/alvareztech/LimpiadorDeGramaticas)
+* [Descargar ZIP](https://github.com/alvareztech/LimpiadorDeGramaticas/archive/master.zip)

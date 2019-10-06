@@ -49,5 +49,5 @@ Más información y documentación de Retrofit:
 
 Código completo de la aplicación:
 
-* [GitHub repository](https://github.com/adanieldev/Pokedex)
-* [Download ZIP](https://github.com/adanieldev/Pokedex/archive/master.zip)
+* [GitHub repository](https://github.com/alvareztech/Pokedex)
+* [Download ZIP](https://github.com/alvareztech/Pokedex/archive/master.zip)

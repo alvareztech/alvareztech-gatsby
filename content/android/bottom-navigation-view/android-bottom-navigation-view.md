@@ -73,8 +73,8 @@ Menu creation (1.38)
 ## The Code
 The complete code:
 
-* [GitHub Repository](https://github.com/adanieldev/BottomNavigationViewSample)
-* [Download ZIP](https://github.com/adanieldev/BottomNavigationViewSample/archive/master.zip)
+* [GitHub Repository](https://github.com/alvareztech/BottomNavigationViewSample)
+* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/master.zip)
 
 After you download or clone the project you can import it with the "Import Project" option from Android Studio.
 
@@ -105,15 +105,15 @@ private void removeShiftMode(BottomNavigationView bottomNavigationView) {
 
 You can download the same example with this change.
 
-* [GitHub repository](https://github.com/adanieldev/BottomNavigationViewSample/tree/remove-shift)
-* [Download ZIP](https://github.com/adanieldev/BottomNavigationViewSample/archive/remove-shift.zip)
+* [GitHub repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/remove-shift)
+* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/remove-shift.zip)
 
 ## With Fragments
 
 If you want an example with fragments I leave it here:
 
-* [GitHub repository](https://github.com/adanieldev/BottomNavigationViewSample/tree/fragments)
-* [Download ZIP](https://github.com/adanieldev/BottomNavigationViewSample/archive/fragments.zip)
+* [GitHub repository](https://github.com/alvareztech/BottomNavigationViewSample/tree/fragments)
+* [Download ZIP](https://github.com/alvareztech/BottomNavigationViewSample/archive/fragments.zip)
 
 ## Resources
 
