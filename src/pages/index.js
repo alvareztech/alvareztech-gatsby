@@ -2,9 +2,7 @@ import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import postStyles from "./index.module.scss"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -29,25 +27,33 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home"/>
-      <h1>I'm Daniel, a software engineer.</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image/>
-      </div>
-
-      {data.allMarkdownRemark.edges.map((edge) => {
-        return (
-          <div className={postStyles.post}>
-            <Link to={edge.node.fields.slug}>
-              <h2>{edge.node.frontmatter.title}</h2>
-              <p>{edge.node.excerpt}</p>
-            </Link>
+      <section className="hero is-primary is-medium">
+        <div className="hero-body">
+          <div className="content">
+            <h1 className="title">
+              I'm Daniel, a software engineer.
+            </h1>
+            <p className="subtitle">
+              Software Engineer. iOS, Android development trainer. Tech speaker.
+            </p>
           </div>
-        )
-      })}
+        </div>
+      </section>
 
-      <Link to="/page-2/">Go to page 2</Link>
+      <section className="section">
+        <div className="columns is-multiline">
+          {data.allMarkdownRemark.edges.map((edge) => {
+            return (
+              <div className="column is-one-quarter">
+                <div className="content">
+                  <h2><Link to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link></h2>
+                  <p>{edge.node.excerpt}</p>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </section>
     </Layout>
   )
 }

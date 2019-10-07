@@ -27,8 +27,14 @@ const Post = (props) => {
         description={post.frontmatter.description || post.excerpt}
         lang={post.frontmatter.lang}
       />
-      <h1>{post.frontmatter.title}</h1>
-      <div className={postStyles.post} dangerouslySetInnerHTML={{ __html: post.html }}/>
+      <section className="section">
+        <div className="container">
+          <div className="content">
+            <h1>{post.frontmatter.title}</h1>
+            <div className={postStyles.post} dangerouslySetInnerHTML={{ __html: post.html }}/>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }

@@ -1,9 +1,12 @@
 import React from "react"
-import "./footer.module.scss"
 
 const Footer = ({ author }) => (
-  <footer>
-    By {author} © {new Date().getFullYear()}
+  <footer className="footer">
+    <div className="content has-text-centered">
+      <p>
+        By <strong>{author}</strong> © {new Date().getFullYear()}
+      </p>
+    </div>
   </footer>
 )
 
