@@ -29,7 +29,7 @@ const Post = (props) => {
       />
       <section className="section">
         <div className="container">
-          <div className="content">
+          <div className="content is-medium">
             <h1>{post.frontmatter.title}</h1>
             <div className={postStyles.post} dangerouslySetInnerHTML={{ __html: post.html }}/>
           </div>
