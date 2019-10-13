@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
+import logo from "../images/daniel-circle.png"
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -8,7 +9,9 @@ const Header = ({ siteTitle }) => (
     <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <Link className="navbar-item" to="/">{siteTitle}</Link>
+          <Link className="navbar-item" to="/">
+            <img src={logo} alt={siteTitle}/>
+          </Link>
           <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
