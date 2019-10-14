@@ -16,11 +16,22 @@ const ContactPage = () => (
     </section>
     <section className="section">
       <div className="container">
-        <p>
-          The best way to reach me is via <a href="https://twitter.com/alvarez_tech" target="_blank"
-                                             rel="noopener noreferrer">@alvarez_tech</a> on
-          Twitter.
-        </p>
+        <div className="content">
+          <p>
+            The best way to reach me is via <a href="https://twitter.com/alvarez_tech" target="_blank"
+                                               rel="noopener noreferrer">@alvarez_tech</a> on
+            Twitter.
+          </p>
+          <p className="buttons">
+            <a className="button is-primary is-outlined" href="https://github.com/alvareztech" target="_blank">
+              <span>GitHub</span>
+            </a>
+            <a className="button is-primary is-outlined" href="https://www.linkedin.com/in/alvareztech/"
+               target="_blank">
+              <span>LinkedIn</span>
+            </a>
+          </p>
+        </div>
       </div>
     </section>
   </Layout>

@@ -61,7 +61,7 @@ const IndexPage = () => {
                     <div className="tags has-addons">
                       <span className="tag">{edge.node.frontmatter.lang === "es" ? "🇪🇸" : "🇺🇸"}</span>
                       <span
-                        className="tag is-primary">{edge.node.frontmatter.tag ? edge.node.frontmatter.tag : ""}</span>
+                        className="tag is-primary">{edge.node.frontmatter.tag ? edge.node.frontmatter.tag.toUpperCase() : ""}</span>
                     </div>
                   </div>
                 </div>
