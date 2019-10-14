@@ -1,5 +1,6 @@
 ---
 title: "Enviar notificaciones Android con Firebase Cloud Messaging"
+tag: firebase
 lang: es
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Consume an API, Web Service with Retrofit on Android"
+tag: android
 lang: en
 ---
 

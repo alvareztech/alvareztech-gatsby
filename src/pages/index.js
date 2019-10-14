@@ -4,16 +4,21 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const postStyle = {
+  color: "black",
+}
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(filter: {frontmatter: {draft: {ne: true}}}) {
         edges {
           node {
             frontmatter {
-              title
+              title,
+              lang,
+              tag
             }
-            html
             excerpt
             fields {
               slug
@@ -49,8 +54,15 @@ const IndexPage = () => {
               return (
                 <div className="column is-one-quarter">
                   <div className="content">
-                    <h2><Link to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link></h2>
+                    <h2>
+                      <Link to={edge.node.fields.slug} style={postStyle}>{edge.node.frontmatter.title}</Link>
+                    </h2>
                     <p>{edge.node.excerpt}</p>
+                    <div className="tags has-addons">
+                      <span className="tag">{edge.node.frontmatter.lang === "es" ? "🇪🇸" : "🇺🇸"}</span>
+                      <span
+                        className="tag is-primary">{edge.node.frontmatter.tag ? edge.node.frontmatter.tag : ""}</span>
+                    </div>
                   </div>
                 </div>
               )

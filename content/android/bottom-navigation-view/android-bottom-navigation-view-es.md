@@ -1,5 +1,6 @@
 ---
 title: "Implementar Bottom Navigation View en Android para la navegación"
+tag: android
 lang: es
 ---
 Implementación de un `BottomNavigationView` en una aplicación Android. Componente disponible desde la librería de compatibilidad 25.

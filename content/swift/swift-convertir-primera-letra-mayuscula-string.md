@@ -1,5 +1,6 @@
 ---
 title: "Cómo convertir la primera letra a mayúscula de un String"
+tag: swift
 lang: es
 ---
 
