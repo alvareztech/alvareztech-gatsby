@@ -17,7 +17,7 @@ const ContactPage = () => (
     <section className="section">
       <div className="container">
         <p>
-          The best wat to reach me is via <a href="https://twitter.com/alvarez_tech" target="_blank"
+          The best way to reach me is via <a href="https://twitter.com/alvarez_tech" target="_blank"
                                              rel="noopener noreferrer">@alvarez_tech</a> on
           Twitter.
         </p>

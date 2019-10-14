@@ -37,10 +37,10 @@ const IndexPage = () => {
           <div className="container">
             <div className="content">
               <h1 className="title">
-                I'm Daniel, a software engineer.
+                Hello! I am Daniel, a software engineer.
               </h1>
               <p className="subtitle">
-                Software Engineer. iOS, Android development trainer. Tech speaker.
+                iOS, Android development trainer. Here I share everything I do. Tutorials, code and more.
               </p>
             </div>
           </div>
