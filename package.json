@@ -1,7 +1,7 @@
 {
   "name": "alvareztech",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "ALVAREZ technologies website.",
   "version": "0.1.0",
   "author": "Daniel Alvarez <daniel@alvarez.tech>",
   "dependencies": {
@@ -29,7 +29,9 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "alvarez tech",
+    "daniel alvarez"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/alvareztech/alvareztech"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/alvareztech/alvareztech/issues"
   }
 }
