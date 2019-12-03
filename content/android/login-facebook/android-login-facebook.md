@@ -1,6 +1,5 @@
 ---
 title: "Login Facebook en Android"
-tag: android
 lang: es
 ---
 

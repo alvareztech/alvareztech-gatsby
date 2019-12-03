@@ -1,6 +1,5 @@
 ---
 title: "Descargar imágenes de Internet con Glide"
-tag: android
 lang: es
 ---
 

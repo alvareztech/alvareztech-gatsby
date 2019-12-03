@@ -1,6 +1,5 @@
 ---
 title: "Consumir una API, WebService con Retrofit en Android"
-tag: android
 lang: es
 ---
 

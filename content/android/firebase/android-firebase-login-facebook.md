@@ -1,6 +1,5 @@
 ---
 title: "Firebase: Login Facebook en Android"
-tag: firebase
 lang: es
 ---
 

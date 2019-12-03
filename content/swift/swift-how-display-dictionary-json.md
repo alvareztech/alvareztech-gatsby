@@ -1,6 +1,5 @@
 ---
 title: "How to display a dictionary in JSON format"
-tag: swift
 lang: en
 ---
 

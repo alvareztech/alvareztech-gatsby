@@ -22,6 +22,7 @@ const IndexPage = () => {
             excerpt
             fields {
               slug
+              tag
             }
           }
         }
@@ -61,7 +62,7 @@ const IndexPage = () => {
                     <div className="tags has-addons">
                       <span className="tag">{edge.node.frontmatter.lang === "es" ? "🇪🇸" : "🇺🇸"}</span>
                       <span
-                        className="tag is-primary">{edge.node.frontmatter.tag ? edge.node.frontmatter.tag.toUpperCase() : ""}</span>
+                        className="tag is-primary">{edge.node.fields.tag ? edge.node.fields.tag.toUpperCase() : ""}</span>
                     </div>
                   </div>
                 </div>
