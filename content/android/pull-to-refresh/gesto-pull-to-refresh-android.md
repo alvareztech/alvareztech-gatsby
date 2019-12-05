@@ -1,9 +1,11 @@
 ---
 title: Pull To Refresh en tu lista, RecyclerView en Android
-draft: true
+lang: es
 ---
 
 Si tienes una lista en tu aplicación donde se cargan los datos y estos requieran actualización cuando el usuario lo requiera, la opción más popular suele ser hacer un *Pull to Refresh*.
+
+![Pull To Refresh gesture](https://media.giphy.com/media/l378mccLdez0hE6m4/giphy.gif)
 
 En Android no es nada complicado porque tenemos el componente que esta en la librería de soporte, en palabras más sencillas, disponible para todas tus versiones de Android.
 
@@ -92,4 +94,6 @@ El primero puede recibir más de un color separado por comas.
 
 En el siguiente ejemplo creamos un proceso o tarea de ejemplo que tarda 3 segundos para que puedas notar el gesto y la animación.
 
-Eso es todo. Ahora que sabes que existe el componente y sabes como usarlo, colócalo en tus proyectos de forma adecuada, no esta demás seguir las guías de diseño para progresos de Material Design.
+* [Código](https://gist.github.com/alvareztech/0e1742d661c7dfcf132197f68941f30d)
+
+Eso es todo. Ahora que sabes que existe el componente y sabes como usarlo, colócalo en tus proyectos de forma adecuada.
