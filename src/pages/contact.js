@@ -23,11 +23,12 @@ const ContactPage = () => (
             Twitter.
           </p>
           <p className="buttons">
-            <a className="button is-primary is-outlined" href="https://github.com/alvareztech" target="_blank">
+            <a className="button is-primary is-outlined" href="https://github.com/alvareztech" target="_blank"
+               rel="noopener noreferrer">
               <span>GitHub</span>
             </a>
             <a className="button is-primary is-outlined" href="https://www.linkedin.com/in/alvareztech/"
-               target="_blank">
+               target="_blank" rel="noopener noreferrer">
               <span>LinkedIn</span>
             </a>
           </p>

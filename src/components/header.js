@@ -49,6 +49,7 @@ class Header extends Component {
                     <p className="control">
                       <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet"
                          target="_blank"
+                         rel="noopener noreferrer"
                          href="https://twitter.com/alvarez_tech">
                     <span>
                 Twitter
@@ -58,6 +59,7 @@ class Header extends Component {
                     <p className="control">
                       <a className="button is-primary"
                          target="_blank"
+                         rel="noopener noreferrer"
                          href="https://www.youtube.com/alvareztech">
                         YouTube
                       </a>
